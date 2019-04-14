@@ -14,7 +14,7 @@ body {
 <?php
     $db_host = 'sql303.unaux.com';
     $db_user = 'unaux_23766826';
-    $dp_pwd = '73oj1ns9';
+    $dp_pwd = 'Startrek20!4';
 
     $database = 'unaux_23766826_Class';
     $table = 'testing';
