@@ -19,12 +19,8 @@ body {
     $database = 'unaux_23766826_Class';
     $table = 'testing';
     
-    if (!mysql_connect($db_host))
+    if (!mysql_connect($db_host, $db_user, $db_pwd))
         die("Incorrect Host");
-    if (!mysql_connect ($db_user))
-        die("Incorrect Username");
-    if (!mysql_connect ($db_pwd))
-        die("Incorrect Password");
     
     if (!mysql_select_db($database))
         die("Can't select database");
