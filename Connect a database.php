@@ -12,15 +12,19 @@ body {
 <body>
 
 <?php
-    $db_host = '....................' ;
-    $db_user = '';
-    $dp_pwd = '';
+    $db_host = 'sql303.unaux.com';
+    $db_user = 'unaux_23766826';
+    $dp_pwd = '73oj1ns9';
 
-    $database = '';
-    $table = '';
+    $database = 'unaux_23766826_Class';
+    $table = 'testing';
     
-    if (!mysql_connect($db_host, $db_user, $db_pwd))
-        die("Can't connect to database");
+    if (!mysql_connect($db_host))
+        die("Incorrect Host");
+    if (!mysql_connect ($db_user))
+        die("Incorrect Username");
+    if (!mysql_connect ($db_pwd))
+        die("Incorrect Password");
     
     if (!mysql_select_db($database))
         die("Can't select database");
