@@ -12,12 +12,12 @@ body {
 <body>
 
 <?php
-    $db_host = '....................' ;
-    $db_user = '';
-    $dp_pwd = '';
+    $db_host = 'sql304.unaux.com' ;
+    $db_user = 'unaux_23441771';
+    $dp_pwd = 'Startrek20!4';
 
-    $database = '';
-    $table = '';
+    $database = 'unaux_23441771_Class	';
+    $table = 'Testing';
     
     if (!mysql_connect($db_host, $db_user, $db_pwd))
         die("Can't connect to database");
