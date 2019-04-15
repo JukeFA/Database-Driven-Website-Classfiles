@@ -14,17 +14,17 @@ body {
 <?php
     $db_host = 'sql303.unaux.com';
     $db_user = 'unaux_23766826';
-    $dp_pwd = 'Startrek20!4';
+    $dp_pwd = '73oj1ns9';
 
     $database = 'unaux_23766826_Class';
     $table = 'testing';
-    
+
     if (!mysql_connect($db_host, $db_user, $db_pwd))
         die("Incorrect Host");
-    
+
     if (!mysql_select_db($database))
         die("Can't select database");
-    
+
     // sending query
     $result = msql_query("SELECT * FROM {$table}");
     if (!result) {
