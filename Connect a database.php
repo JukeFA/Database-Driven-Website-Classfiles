@@ -12,7 +12,7 @@ body {
 <body>
 
 <?php
-    $db_host = 'sql303.byetcluster.com';
+    $db_host = 'sql303.unaux.com';
     $db_user = 'unaux_23766826';
     $dp_pwd = '73oj1ns9';
 
@@ -20,7 +20,7 @@ body {
     $table = 'testing';
 
     if (!mysql_connect($db_host, $db_user, $db_pwd))
-        die("Incorrect Host");
+        die("Can't access server");
 
     if (!mysql_select_db($database))
         die("Can't select database");
