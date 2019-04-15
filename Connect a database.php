@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Average</title>
+<title>Read Database</title>
 <style type="text/css">
 body {
     margin-left: 100px;
