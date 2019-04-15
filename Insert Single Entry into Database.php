@@ -1,6 +1,6 @@
 <?
-mysql_connect(".....", "....", "...");
-mysql_select_db("...");
+mysql_connect("sql303.unaux.com", "unaux_23766826", "73oj1ns9");
+mysql_select_db("unaux_23766826_mydatabase");
 $order = "INSERT INTO Contactinfo
     (FirstName)
     VALUES

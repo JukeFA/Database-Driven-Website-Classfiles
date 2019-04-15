@@ -12,19 +12,19 @@ body {
 <body>
 
 <?php
-    $db_host = 'sql303.unaux.com';
-    $db_user = 'unaux_23441771';
-    $dp_pwd = '73oj1ns9';
+    $db_host = "sql303.unaux.com";
+    $db_user = "unaux_23766826";
+    $db_pwd = "73oj1ns9";
 
-    $database = 'unaux_23766826_Class';
-    $table = 'testing';
-    
+    $database = "unaux_23766826_mydatabase";
+    $table = "testing";
+
     if (!mysql_connect($db_host, $db_user, $db_pwd))
-        die("Can't connect to database");
-    
+        die("Can't access server");
+
     if (!mysql_select_db($database))
         die("Can't select database");
-    
+
     // sending query
     $result = msql_query("SELECT * FROM {$table}");
     if (!result) {
