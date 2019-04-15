@@ -12,7 +12,7 @@ body {
 <body>
 
 <?php
-    $db_host = 'sql303.unaux.com';
+    $db_host = 'sql303.byetcluster.com';
     $db_user = 'unaux_23766826';
     $dp_pwd = '73oj1ns9';
 
